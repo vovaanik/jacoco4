@@ -42,19 +42,15 @@
                         <id>prepare-agent</id>
                         <goals>
                             <goal>prepare-agent</goal>
+                            <goal>prepare-agent-integration</goal>
                         </goals>
                     </execution>
                     <execution>
                         <id>report</id>
                         <goals>
                             <goal>report</goal>
+                            <goal>report-integration</goal>
                         </goals>
-                    </execution>
-                    <execution>
-                            <id>check</id>
-                            <goals>
-                                <goal>check</goal>
-                            </goals>
                     </execution>
             </executions>
                 <configuration>
